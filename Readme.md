@@ -1,0 +1,3 @@
+## A command line package to run dynamodb migrations and seed sample data into dynamodb tables
+
+Documentation coming soon ....

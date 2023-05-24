@@ -1,0 +1,26 @@
+{
+  "name": "db-seeder",
+  "version": "1.0.0",
+  "description": "A nodejs package to seed sample data to dynamo db",
+  "main": "index.js",
+  "bin": {
+    "db": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo 'All tests passed'"
+  },
+  "author": "psreepathi",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.337.0",
+    "commander": "^10.0.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "@faker-js/faker": "^8.0.1"
+  }
+}
