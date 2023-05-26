@@ -18,7 +18,7 @@ const seeders = fs
 
 
 function Factory(name, count = 10) {
-    const seeder = seeders[`${name}Seeder`];
+    const seeder = seeders[`${name}Seeder`]
     if(!seeder) throw Error('Seeder not found.')
     return seeder(count)
 }
